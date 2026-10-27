@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberSecurity | Безопасность в сети</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: #f1f5f9;
+}
+nav {
+  padding: 22px 8%;
+  background: #111a2e;
+  color: #4ade80;
+  font-size: 22px;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 75px 20px;
+  background: linear-gradient(135deg, #111a2e, #123b3a);
+}
+h1 { font-size: 44px; margin-bottom: 16px; }
+.hero p { color: #cbd5e1; font-size: 18px; }
+button {
+  margin-top: 20px;
+  padding: 13px 25px;
+  background: #4ade80;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 35px 20px;
+}
+h2 { color: #4ade80; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #172033;
+  border: 1px solid #29364d;
+  border-radius: 14px;
+  padding: 24px;
+}
+.card p { color: #cbd5e1; line-height: 1.6; }
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #94a3b8;
+}
+</style>
+</head>
+<body>
+<nav>🛡 CyberSecurity</nav>
+<section class="hero">
+  <h1>Будь защищён в сети</h1>
+  <p>Изучай кибербезопасность. Защищай свои данные.</p>
+  <button onclick="document.getElementById('tips').scrollIntoView({behavior:'smooth'})">
+    Узнать больше
+  </button>
+</section>
+<main id="tips">
+  <h2>Основы кибербезопасности</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>🔐 Надёжные пароли</h3>
+      <p>Создавай уникальные пароли и используй двухфакторную аутентификацию.</p>
+    </article>
+    <article class="card">
+      <h3>🎣 Защита от фишинга</h3>
+      <p>Проверяй ссылки и отправителя письма перед открытием вложений.</p>
+    </article>
+    <article class="card">
+      <h3>🐳 Docker и контейнеры</h3>
+      <p>Контейнеры помогают изолировать приложения и упрощают их запуск.</p>
+    </article>
+  </div>
+  <h2>Зачем нужна безопасность?</h2>
+  <p>Кибербезопасность помогает защищать личную информацию, учётные записи и компьютерные системы от цифровых угроз.</p>
+</main>
+<footer>Учебный проект · Docker · OCI · 2026</footer>
+</body>
+</html>
